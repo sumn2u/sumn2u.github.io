@@ -76,10 +76,11 @@ $(document).ready(function(){
 		// i. client (carousel)
 		
 			$('#client').owlCarousel({
-				items:7,
+				items:3,
 				loop:true,
 				smartSpeed: 1000,
 				autoplay:true,
+        responsiveClass:true,
 				dots:false,
 				autoplayHoverPause:true,
 				responsive:{

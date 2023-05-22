@@ -681,8 +681,9 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .clients .clients-area .owl-carousel .owl-item img {
     display: block;
     width: 100%;
-    height: auto;
-    border-radius:0;
+    /* height: auto; */
+    border-radius:0; 
+    height: 10rem !important;
 }
 
 /*-------------------------------------
