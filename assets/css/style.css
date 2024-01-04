@@ -19,8 +19,9 @@ font-family: 'Poppins', sans-serif;
 7.  Experience
 8.  Profiles
 9.  Portfolio
-10. Clients
-11. Contact
+10. Publications
+11. Clients
+12. Contact
 
 /*-------------------------------------
 		1.General css (Reset code)
@@ -325,25 +326,29 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 /*.single-about-img */
 
 /*-------------------------------------
-        5.  Education
+        5.  Education  10. Publications
 --------------------------------------*/
 
-.education {
+.education, .publications{
     background:  #f9fbfd;
     padding-top:  50px;
 }
-.education-horizontal-timeline {
+.education-horizontal-timeline, .publications-horizontal-timeline {
     padding: 80px 0;
 }
 
-/*.education-horizontal-timeline*/
-.education-horizontal-timeline .col-sm-4 {padding:0 2px;}
+/*.education-horizontal-timeline, .publications-horizontal-timeline*/
+.education-horizontal-timeline .col-sm-4, .publications-horizontal-timeline .col-sm-4 {padding:0 2px;}
 
 .single-horizontal-timeline .experience-time h3{text-transform: capitalize;}
 .single-horizontal-timeline .experience-time h3 span{text-transform:lowercase;}
 .single-horizontal-timeline .timeline-content h5 {margin: 15px 0;}
 .single-horizontal-timeline p {color: #999fb3;max-width: 335px;}
 
+
+.single-horizontal-timeline .experience-time h3 a:hover{
+    color: #d92cf9;
+}
 /*.timeline-horizontal-border*/
 .timeline-horizontal-border {
     display:  flex;
@@ -668,7 +673,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 }/*.isotope-overlay*/
 
 /*-------------------------------------
-        10. Clients
+        11. Clients
 --------------------------------------*/
 .clients {padding-top: 50px; overflow: hidden;}
 .clients-area {
@@ -687,7 +692,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 }
 
 /*-------------------------------------
-        11. Contact
+        12. Contact
 --------------------------------------*/
 .contact {
     background: #f9fbfd;
